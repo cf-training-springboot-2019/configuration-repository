@@ -25,7 +25,7 @@ spring:
 
 spaceship-manager:
   client:
-    provider: rest-template
+    provider: web-client
 
 management:
   endpoints:
