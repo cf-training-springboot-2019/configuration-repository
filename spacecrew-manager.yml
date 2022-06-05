@@ -3,6 +3,10 @@ application:
   description: A small Spring microservice aimed towards both governance, management and operational tasks applied towards for the various crew member resources within the Spaceover platform.
   version: 1.0.0
 
+feign:
+  circuitbreaker:
+    enabled: true
+
 server:
   port: 8081
 
