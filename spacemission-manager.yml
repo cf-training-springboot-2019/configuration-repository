@@ -11,7 +11,10 @@ resilience4j.circuitbreaker:
   configs:
     default:
       registerHealthIndicator: true
-
+      ringBufferSizeInClosedState: 10
+      ringBufferSizeInHalfOpenState: 5
+      ignoreExceptions:
+        - org.springframework.web.client.HttpClientErrorException
 
 server:
   port: 8082
