@@ -3,6 +3,12 @@ application:
   description: A small Spring microservice aimed towards both governance, management and operational tasks applied towards for the various space mission resources within the Spaceover platform.
   version: 1.0.0
 
+currency:
+  id: omega
+  converter:
+    omega:
+      coin: credits
+      rate: 100
 feign:
   circuitbreaker:
     enabled: true
