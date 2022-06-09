@@ -32,6 +32,9 @@ spaceship-manager:
     provider: open-feign
 
 management:
+  health:
+    circuitbreakers:
+      enabled: true
   endpoints:
     web:
       exposure:
