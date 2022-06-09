@@ -8,7 +8,7 @@ currency:
   converter:
     omega:
       coin: credits
-      rate: 100
+      rate: 4556
 feign:
   circuitbreaker:
     enabled: true
