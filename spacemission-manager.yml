@@ -7,6 +7,12 @@ feign:
   circuitbreaker:
     enabled: true
 
+resilience4j.circuitbreaker:
+  configs:
+    default:
+      registerHealthIndicator: true
+
+
 server:
   port: 8082
 
@@ -32,6 +38,9 @@ spaceship-manager:
     provider: open-feign
 
 management:
+  health:
+    circuitbreakers:
+      enabled: true
   endpoints:
     web:
       exposure:
