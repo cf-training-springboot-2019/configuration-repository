@@ -6,6 +6,12 @@ application:
 feign:
   circuitbreaker:
     enabled: true
+    
+resilience4j.circuitbreaker:
+  configs:
+    default:
+      registerHealthIndicator: true
+
 
 server:
   port: 8081
