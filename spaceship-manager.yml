@@ -19,7 +19,7 @@ spring:
       pageable:
         size-parameter: size
         page-parameter: page
-        default-page-size: 5
+        default-page-size: 4
         one-indexed-parameters: false
         max-page-size: 100
 
