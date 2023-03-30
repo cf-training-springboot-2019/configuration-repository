@@ -38,7 +38,7 @@ spring:
 
 spaceship-manager:
   client:
-    provider: web-client
+    provider: rest-template
 
 management:
   health:
