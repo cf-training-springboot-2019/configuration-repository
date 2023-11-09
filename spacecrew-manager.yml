@@ -15,7 +15,12 @@ resilience4j.circuitbreaker:
       ringBufferSizeInHalfOpenState: 5
       ignoreExceptions:
         - org.springframework.web.client.HttpClientErrorException
-
+currency:
+  id: omega
+  converter:
+    omega:
+      coin: credits
+      rate: 4556
 server:
   port: 8081
 
