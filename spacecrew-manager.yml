@@ -38,7 +38,7 @@ spring:
 
 spaceship-manager:
   client:
-    provider: open-feign
+    provider: rest-template
 
 management:
   health:
