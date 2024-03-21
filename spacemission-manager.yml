@@ -19,6 +19,7 @@ resilience4j.circuitbreaker:
       registerHealthIndicator: true
       ringBufferSizeInClosedState: 10
       ringBufferSizeInHalfOpenState: 5
+      waitDurationInOpenState: 20
       ignoreExceptions:
         - org.springframework.web.client.HttpClientErrorException
 
