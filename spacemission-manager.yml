@@ -45,7 +45,7 @@ spring:
 
 spaceship-manager:
   client:
-    provider: feign-client
+    provider: open-feign
 
 management:
   health:
